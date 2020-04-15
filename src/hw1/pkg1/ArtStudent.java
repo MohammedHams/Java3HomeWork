@@ -8,9 +8,9 @@ package hw1.pkg1;
 class ArtStudent extends Student
 {
    double midMarks,projectMarks,finalMarks;
-   double calcualteGrade(double mid,double project,double finalMarks)
+   double calcualteGrade(double mid,double report,double finalMarks)
    {
-       double grade=mid*0.40+project*0.10+finalMarks*50;
+       double grade=mid*0.40+report*0.10+finalMarks*50;
        return grade;
       
    }
